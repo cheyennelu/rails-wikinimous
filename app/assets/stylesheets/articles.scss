@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Open+Sans&display=swap');
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+h1, h2 {
+  font-family: 'Bitter', serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 40%;
+  margin-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ececec;
+  border-bottom: 0.5px solid #d2d2d2;
+  padding: 0.5rem 0.5rem;
+}
+
+.nav-link {
+  font-size: 1.2em;
+  color: #777777;
+}
+
+.nav-link:hover {
+  color: #537cf3;
+}
+
+.index-title {
+  color: #23527C;
+}
